@@ -1,0 +1,16 @@
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-d9qk",{"micros":37665,"calls":["discord-sessions-prd-2-133",{"micros":35182,"calls":["start_session",{"micros":33320,"calls":["api-prd-main-ffpq",{"micros":30351,"calls":["get_user",{"micros":2586},"add_authorized_ip",{"micros":1505},"get_guilds",{"micros":8275},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1243,"calls":[]}]}]}] (Session ID: 95cbba5cf9bc0336ec7853763f6be7c8).
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-ctt2",{"micros":63552,"calls":["discord-sessions-prd-2-171",{"micros":60342,"calls":["start_session",{"micros":43696,"calls":["api-prd-main-tft8",{"micros":41114,"calls":["get_user",{"micros":4504},"add_authorized_ip",{"micros":1946},"get_guilds",{"micros":3581},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":16096,"calls":[]}]}]}] (Session ID: 0dca9fd7cd3d6b85aa3af5a40150a21d).
+INFO:discord.client:Received signal to terminate bot and event loop.
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Cleaning up after 1 tasks.
+INFO:discord.client:All tasks finished cancelling.
+INFO:discord.client:Closing the event loop.
