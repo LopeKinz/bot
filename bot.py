@@ -43,13 +43,15 @@ async def restart(ctx):
 @has_permissions(administrator=True)
 async def msg(ctx, *, args = None):
     await client.wait_until_ready()
-    if args == None:
+    if args is None:
         message_content = "Please wait, we will be with you shortly!"
-    
+
     else:
         message_content = "".join(args)
 
-        em = discord.Embed(title="Pinkys Support Bot", description="{}".format(message_content))
+        em = discord.Embed(
+            title="Pinkys Support Bot", description=f"{message_content}"
+        )
         await ctx.send(embed=em)
         await ctx.message.delete()
 
